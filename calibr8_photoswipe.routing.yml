@@ -1,0 +1,6 @@
+calibr8_photoswipe.pswp_element:
+  path: 'pswp-element'
+  defaults:
+    _controller: '\Drupal\calibr8_photoswipe\Controller\PswpElement::Render'
+  requirements:
+    _access: 'TRUE'

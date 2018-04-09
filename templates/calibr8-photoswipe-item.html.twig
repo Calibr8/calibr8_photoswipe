@@ -1,0 +1,8 @@
+<figure class="photoswipe-item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+  <a href="{{ slide_path }}" itemprop="contentUrl">
+    {{ thumbnail }}
+  </a>
+  {% if caption %}
+    <figcaption itemprop="caption description" class="visually-hidden">{{ caption }}</figcaption>
+  {% endif %}
+</figure>

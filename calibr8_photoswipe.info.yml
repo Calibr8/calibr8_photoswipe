@@ -1,0 +1,7 @@
+name: Calibr8 Photoswipe
+description: Photoswipe gallery
+package: Calibr8
+type: module
+core: 8.x
+version: '8.x-1.0.0'
+dependencies:

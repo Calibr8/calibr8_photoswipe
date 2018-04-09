@@ -1,0 +1,32 @@
+<?php
+/**
+ * @file
+ * Photoswipe: D8 Port of the Photoswipe module. Provides a colorbox-alike formatter for image fields.
+ */
+
+/**
+ * Implements hook_theme()
+ */
+function calibr8_photoswipe_theme() {
+  return [
+    'calibr8_photoswipe_wrapper' => [
+      'variables' => [
+        'items' => NULL,
+        'attributes' => NULL,
+      ],
+    ],
+    'calibr8_photoswipe_item' => [
+      'variables' => [
+        'delta' => NULL,
+        'item' => NULL,
+        'thumbnail' => NULL,
+        'slide_path' => NULL,
+        'slide_size' => NULL,
+        'caption' => NULL,
+      ],
+    ],
+    'calibr8_photoswipe_pswp' => [
+      'variables' => [],
+    ],
+  ];
+}
